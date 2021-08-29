@@ -1,0 +1,6 @@
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+sum = abs(a - c) + abs(b - d)
+print(sum)

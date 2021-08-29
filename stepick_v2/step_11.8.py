@@ -1,0 +1,10 @@
+a = int(input())
+b = int(input())
+c = int(input())
+p = a + b + c
+i = max(a, b, c)
+i1 = min(a, b, c)
+i2 = p - (max(a, b, c) + min(a, b, c))
+print(i)
+print(i2)
+print(i1)
