@@ -1,4 +1,5 @@
-n, m = [int(i) for i in input().split()]  # ввод размера матрицы
+n, m, f, t, e, w = [int(i) for i in input().split()]  # ввод размера матрицы
+
 mtrx = list(range(1, n * m + 1))  # Создаем спискок n*m
 
 def chunked(st, num):
